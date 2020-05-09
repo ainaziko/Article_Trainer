@@ -1,5 +1,6 @@
 # Article_Trainer
-# The application was totally made by myself from zero.
+# The project was made totally by myself from zero.
+
 
 Topic addressed by the project: Education
 
@@ -22,8 +23,8 @@ e-mail   : ainazik.momunalieva @iaau.edu.kg;
 
 mobile   : +996706424748;
 
-
-
+# Attention!
+Please after downloading this project change the path to the derdiedas.txt file in class Controller.java on line 212.
 # Project Description
 After user starts the game, word without article appears. There are three buttons for choosing the variant of answer. After  tapping one of the button, the hidden article, word, plural form and meaning of the word appear on the screen. If user chooses the correct one, the article shows up in green color and progress bars indicator increases(by 0.001 out of 1), if not the color will be red and progress burs indicator doesn't change. Than next button appears. After tapping it there the word changes randomly (the program reads all the words from file derdiedas.txt and gives a random word). All this process repeats untill the progress bar is full. By that time user will have learned a lot.
 
