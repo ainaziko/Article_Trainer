@@ -209,7 +209,7 @@ public class Controller {
     public String getRundomWord(){
         ArrayList listOfWords = new ArrayList();
         try {
-            File myObj = new File("/Users/mac/Downloads/Project/src/derdiedas.txt"); //reading a file
+            File myObj = new File("/Users/mac/Downloads/Article_Trainer-master/Project/src/derdiedas.txt"); //reading a file
             Scanner myReader = new Scanner(myObj);
             while (myReader.hasNextLine()) {
                 String data = myReader.nextLine();
